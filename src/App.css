@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Nova+Mono&family=Courgette&display=swap');
+
+body {
+  background-color: #861657;
+  background-image: linear-gradient(to top, #861657 0%, #ffa69e 74%);
+  height: auto;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+a:hover {  
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Raleway', monospace;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #3a000033;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  user-select: none;
+}
+
+h2 {
+  font-family: 'Raleway', monospace;
+}
+
+h3 {
+  margin: 15px 0;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: 'Raleway', monospace;
+  color: #b82f1d;
+  text-align: center;  
+  letter-spacing: 1px;
+}
+
+h6 {
+  text-align: right;
+  font-size: 4em;
+  margin: 5px 0 35px;
+  font-family: 'Raleway', monospace;
+  font-weight: bold;
+  color: #3a0000a2;
+  user-select: none;
+}
+
+hr {
+  width: 100px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.158);
+}
+
+p {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+strong {  
+  letter-spacing: 1px;
+  color: #741003;
+}
