@@ -8,8 +8,7 @@ class App extends Component {
     this.state = {
       dataAttuale: '',
       datiDiOggi: '',
-      datiDiIeri: '',
-      route: 'MainPage',
+      datiDiIeri: ''
     }
   }
 
@@ -24,19 +23,6 @@ class App extends Component {
         });
       })
   }
-
-  // setMainPaige = (path) => {
-  //   this.setState({
-  //     route: path
-  //   });
-  // }
-
-  // setManifesto = (path) => {
-  //   this.setState({
-  //     route: path
-  //   });
-  // }
-
   render() {
     const { dataAttuale } = this.state;
     const dataAttualeFormattata = `
@@ -47,17 +33,12 @@ class App extends Component {
 
     return (
       <div>
-        {this.state.route === 'MainPage' ?
-          <MainPage
-            datiDiOggi={this.state.datiDiOggi}
-            datiDiIeri={this.state.datiDiIeri}
-            dataAttuale={ dataAttualeFormattata }
-            changeRoute={ this.setManifesto }
-          /> : null
-          // <Manifesto 
-          //   changeRoute={ this.setMainPaige }
-          // />
-        }      
+        <MainPage
+          datiDiOggi={this.state.datiDiOggi}
+          datiDiIeri={this.state.datiDiIeri}
+          dataAttuale={ dataAttualeFormattata }
+          changeRoute={ this.setManifesto }   
+        /> 
       </div>
     )
   }
