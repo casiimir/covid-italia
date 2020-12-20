@@ -90,7 +90,7 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale, changeRoute}) => {
       </div>
       <div class="footer-text">
         <p class="text-center">Questo sito utilizza i dati della protezione civile, si aggiornano giornalmente.
-         Colgo l'occasione per Ringraziare voi tutti e i medici in prima linea e le forze armate, per il lavoro che avete fatto e e per quello che continuate a fare per il nostro paese. </p>
+         Colgo l'occasione per Ringraziare voi tutti e i medici in prima linea e le forze armate, per il lavoro che avete fatto e per quello che continuate a fare per il nostro paese. </p>
          <p class="text-center">Realizzato con 💗 da <a href="https://www.linkedin.com/in/casimiro-p-ciancimino/">Casiimir</a></p>
       </div>
     </div>
