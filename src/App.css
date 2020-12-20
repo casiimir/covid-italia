@@ -1,19 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Nova+Mono&family=Courgette&display=swap');
 
 body {
-  background-color: #861657;
-  background-image: linear-gradient(to top, #861657 0%, #ffa69e 74%);
+  background-color: #ffcccc;
+  background: linear-gradient(to top, #ffb4b4 -4%, #c4ff8d 120%);
   height: auto;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
 }
 
 a {
-  color: white;
+  color:rgba(0, 0, 0, 0.5);
+  font-weight: bold;
 }
 
 a:hover {  
   text-decoration: none;
+}
+
+a:hover {
+  color: #b82f1dda;
+}
+a:active {
+  color:  #5c8408; 
 }
 
 h1 {
@@ -44,7 +52,7 @@ h3 {
 h6 {
   text-align: right;
   font-size: 4em;
-  margin: 5px 0 35px;
+  margin: 5px 0;
   font-family: 'Raleway', monospace;
   font-weight: bold;
   color: #3a0000a2;
