@@ -40,21 +40,21 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale, changeRoute}) => {
           <div className="card-body">
             <h3 className="card-title">{ nuovi_positivi }</h3>
             <hr/>
-            <p className="card-text">i nuovi positivi nel nostro paese, <strong> { calcolaRispettoIeri(numeroPositiviRispettoIeri) } </strong> di ieri.</p>
+            <p className="card-text">i nuovi positivi nel nostro paese, <strong> { calcolaRispettoIeri(numeroPositiviRispettoIeri) } </strong> rispetto a ieri.</p>
           </div>  
         </div>
         <div className="card section col-xs-12 col-sm-5 col-md-5 col-lg-2 shadow-lg mb-5 rounded">
           <div className="card-body">
             <h3 className="card-title">{ ricoverati_con_sintomi }</h3>
             <hr/>
-            <p className="card-text">italiani oggi stanno passando le feste natalizie ricoverati all'ospedale, <strong>{ calcolaRispettoIeri(numeroRicoveratiRispettoIeri) } </strong> ieri.</p>
+            <p className="card-text">italiani stanno passando le feste natalizie ricoverati all'ospedale, <strong>{ calcolaRispettoIeri(numeroRicoveratiRispettoIeri) } </strong> rispetto a ieri.</p>
           </div>
         </div>
         <div className="card section col-xs-12 col-sm-5 col-md-5 col-lg-2 shadow-lg mb-5 rounded">
           <div className="card-body">
             <h3 className="card-title">{ terapia_intensiva }</h3>
             <hr/>
-            <p className="card-text">in terapia intensiva. <strong>{ calcolaRispettoIeri(numeroTerapiaIntensRispettoIeri) } </strong> di ieri.</p>
+            <p className="card-text">in terapia intensiva. <strong>{ calcolaRispettoIeri(numeroTerapiaIntensRispettoIeri) } </strong> rispetto a ieri.</p>
           </div>
         </div>
         <div className="card section col-xs-12 col-sm-5 col-md-5 col-lg-2 shadow-lg mb-5 rounded">
@@ -81,7 +81,7 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale, changeRoute}) => {
         </div>
         <div className="col-6">
           <p className="manifesto">
-            Creiamo insieme il Miracolo di Natale
+            Contribuiamo al Miracolo del Natale
           </p>      
           <p className="text-center">
             <strong className="alt-strong">Restiamo a casa</strong>
@@ -89,9 +89,9 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale, changeRoute}) => {
         </div>
       </div>
       <div class="footer-text">
-        <p>Questo sito utilizza i dati della protezione civile, si aggiornano giornalmente.
+        <p class="text-center">Questo sito utilizza i dati della protezione civile, si aggiornano giornalmente.
          Colgo l'occasione per Ringraziare voi tutti e i medici in prima linea e le forze armate, per il lavoro che avete fatto e e per quello che continuate a fare per il nostro paese. </p>
-         <p>Realizzato con 💗 da <a href="https://www.linkedin.com/in/casimiro-p-ciancimino/">Casiimir</a></p>
+         <p class="text-center">Realizzato con 💗 da <a href="https://www.linkedin.com/in/casimiro-p-ciancimino/">Casiimir</a></p>
       </div>
     </div>
   )
