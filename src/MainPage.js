@@ -10,6 +10,11 @@ function calcolaRispettoIeri (dati) {
   } return `${Math.abs(dati)} in più`;
 }
 
+// Aggiunge il punto alla cifra del migliaio
+function ottieniNumeroCon (cifra) {
+  return String(cifra).replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+}
+
 const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale, changeRoute}) => {
   const { nuovi_positivi, ricoverati_con_sintomi, terapia_intensiva, isolamento_domiciliare, deceduti, dimessi_guariti } = datiDiOggi;
   const numeroPositiviRispettoIeri = datiDiIeri.nuovi_positivi - nuovi_positivi;
@@ -17,7 +22,7 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale, changeRoute}) => {
   const numeroTerapiaIntensRispettoIeri = datiDiIeri.terapia_intensiva - terapia_intensiva;
 
   const numGuaritiOggi = <AnimatedNumber
-                            value={dimessi_guariti}
+                            value={ dimessi_guariti }
                             formatValue={(value) => value.toFixed(0)}
                             duration="10000"
                           />;
@@ -38,28 +43,28 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale, changeRoute}) => {
       <div className="row d-flex justify-content-between">
         <div className="card section col-xs-12 col-sm-4 col-md-4 col-lg-2 shadow-lg mb-2 rounded">
           <div className="card-body">
-            <h3 className="card-title">{ nuovi_positivi }</h3>
+            <h3 className="card-title">{ ottieniNumeroCon(nuovi_positivi) }</h3>
             <hr/>
             <p className="card-text">i nuovi positivi nel nostro paese <strong> { calcolaRispettoIeri(numeroPositiviRispettoIeri) } </strong> rispetto a ieri.</p>
           </div>  
         </div>
         <div className="card section col-xs-12 col-sm-7 col-md-7 col-lg-3 shadow-lg mb-2 rounded">
           <div className="card-body">
-            <h3 className="card-title">{ ricoverati_con_sintomi }</h3>
+            <h3 className="card-title">{ ottieniNumeroCon(ricoverati_con_sintomi) }</h3>
             <hr/>
             <p className="card-text">italiani stanno passando le feste natalizie ricoverati all'ospedale <strong>{ calcolaRispettoIeri(numeroRicoveratiRispettoIeri) } </strong> rispetto a ieri.</p>
           </div>
         </div>
         <div className="card section col-xs-12 col-sm-7 col-md-6 col-lg-3 shadow-lg mb-2 rounded">
           <div className="card-body">
-            <h3 className="card-title">{isolamento_domiciliare}</h3>
+            <h3 className="card-title">{ ottieniNumeroCon(isolamento_domiciliare) }</h3>
             <hr/>
             <p className="card-text">sono quelli isolamento domiciliare e, con loro probabilmente, l'intera famiglia.</p>
           </div>
         </div>
         <div className="card section col-xs-12 col-sm-4 col-md-5 col-lg-2 shadow-lg mb-2 rounded">
           <div className="card-body">
-            <h3 className="card-title">{ terapia_intensiva }</h3>
+            <h3 className="card-title">{ ottieniNumeroCon(terapia_intensiva) }</h3>
             <hr/>
             <p className="card-text">in terapia intensiva <strong>{ calcolaRispettoIeri(numeroTerapiaIntensRispettoIeri) } </strong> rispetto a ieri.</p>
           </div>
@@ -73,7 +78,7 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale, changeRoute}) => {
       </div>
       <div className="row">
         <div className="col-6">
-          <h3 className="alt-strong">{ deceduti }</h3>
+          <h3 className="alt-strong">{ ottieniNumeroCon(deceduti) }</h3>
           <hr/>
           <p className="text-center alt-text">
             I nostri concittadini deceduti. A loro, più di ogni altro,
