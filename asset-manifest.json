@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/covid-italia/static/css/main.f2be5f09.chunk.css",
-    "main.js": "/covid-italia/static/js/main.b8098944.chunk.js",
-    "main.js.map": "/covid-italia/static/js/main.b8098944.chunk.js.map",
+    "main.css": "/covid-italia/static/css/main.9388df6a.chunk.css",
+    "main.js": "/covid-italia/static/js/main.0cd4c399.chunk.js",
+    "main.js.map": "/covid-italia/static/js/main.0cd4c399.chunk.js.map",
     "runtime-main.js": "/covid-italia/static/js/runtime-main.cf7f8c4a.js",
     "runtime-main.js.map": "/covid-italia/static/js/runtime-main.cf7f8c4a.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/covid-italia/static/css/2.20aa2d7b.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.9d1b1ac5.chunk.js.map": "/covid-italia/static/js/3.9d1b1ac5.chunk.js.map",
     "index.html": "/covid-italia/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/covid-italia/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.f2be5f09.chunk.css.map": "/covid-italia/static/css/main.f2be5f09.chunk.css.map",
+    "static/css/main.9388df6a.chunk.css.map": "/covid-italia/static/css/main.9388df6a.chunk.css.map",
     "static/js/2.7eb7b742.chunk.js.LICENSE.txt": "/covid-italia/static/js/2.7eb7b742.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cf7f8c4a.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.7eb7b742.chunk.js",
-    "static/css/main.f2be5f09.chunk.css",
-    "static/js/main.b8098944.chunk.js"
+    "static/css/main.9388df6a.chunk.css",
+    "static/js/main.0cd4c399.chunk.js"
   ]
 }
