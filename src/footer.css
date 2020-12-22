@@ -1,0 +1,9 @@
+.footer {
+  width: 85%;
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+.footer p:nth-child(2) {
+  text-align: center;
+}

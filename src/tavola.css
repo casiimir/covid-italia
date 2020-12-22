@@ -1,0 +1,54 @@
+hr {
+  width: 75px;
+  border-bottom: 1.3px solid#cc4a559f;
+  position: relative;
+  top: -40px;
+}
+
+.illustrazioni {
+  width: 250px;
+  position: relative;
+  top: -25px;
+  z-index: -1;
+}
+
+strong {
+  color:#db222b;
+}
+
+.primo-titolo {
+  text-align: left;
+  font-size: 2.3em;
+  margin: 0;
+  padding: 0;
+  color: rgba(63, 97, 45, 0.144);
+  font-family: 'Prompt', sans-serif;
+}
+
+.secondo-titolo {
+  font-weight: bold;
+  font-size: 3em;
+  position: relative;
+  top: -32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.tavola {
+  width: 85%;
+  text-align: center;
+  margin: 0 0 35px;
+}
+
+.cornice-testo {  
+  background-color: #ffffff;
+  border-radius: 13px;
+  padding: 20px 25px 10px;
+  position: relative;
+  top: -20px;  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cornice-testo:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
