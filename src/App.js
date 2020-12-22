@@ -8,7 +8,7 @@ class App extends Component {
     this.state = {
       dataAttuale: '',
       datiDiOggi: '',
-      datiDiIeri: ''
+      datiDiIeri: '',
     }
   }
 
@@ -19,7 +19,7 @@ class App extends Component {
         this.setState({
           datiDiOggi: rawData[rawData.length - 1],
           datiDiIeri: rawData[rawData.length - 2],
-          dataAttuale: rawData[rawData.length - 1].data,
+          dataAttuale: rawData[rawData.length - 1].data,         
         });
       })
   }

@@ -1,0 +1,27 @@
+.data-superiore {
+  font-size: 4em;
+  color: #cc4a5528;  
+  font-family: 'Prompt';
+}
+
+.data-inferiore {
+  font-size: 3em;
+  position: relative;
+  top: -50px;
+  right: 15px;
+  color: #cc4a54;
+  font-weight: bold;
+  font-family: 'Raleway';
+}
+
+.titolo-data {
+  width: 85%;
+  text-align: right;
+}
+
+.covid-testo {
+  font-size: 0.9em;
+  font-weight: bold;
+  position: relative;
+  top: -55px;
+}
