@@ -3,7 +3,7 @@ import './titolo.css';
 
 const Titolo = ({ dataAttuale }) => {
   return(
-    <div className="titolo-data tester">
+    <div className="titolo-data tester animate__animated animate__fadeInDown">
       <h1 className="data-superiore">{ dataAttuale.YYYY }</h1>
       <h2 className="data-inferiore">{ dataAttuale.DDMM }</h2>
       <p className="covid-testo">COVID19, la situazione Italiana</p>

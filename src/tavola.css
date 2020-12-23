@@ -2,7 +2,7 @@ hr {
   width: 75px;
   border-bottom: 1.3px solid#cc4a559f;
   position: relative;
-  top: -40px;
+  top: -55px;
 }
 
 .illustrazioni {
@@ -17,27 +17,31 @@ strong {
 }
 
 .primo-titolo {
-  text-align: left;
-  font-size: 2.3em;
+  text-align: center;
+  font-size: 2.9em;
   margin: 0;
   padding: 0;
-  color: rgba(63, 97, 45, 0.144);
   font-family: 'Prompt', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 1px #000000;
+  opacity: 0.7;
 }
 
 .secondo-titolo {
   font-weight: bold;
-  font-size: 3em;
+  font-size: 4.5em;
   position: relative;
-  top: -32px;
+  top: -46px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  color:  rgba(63, 97, 45, 0.5);
 }
 
 .tavola {
   width: 85%;
   text-align: center;
   margin: 0 0 35px;
+  border-radius: 15px;
 }
 
 .cornice-testo {  
@@ -47,8 +51,14 @@ strong {
   position: relative;
   top: -20px;  
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 14em;
+  margin: 0 auto;
 }
 
 .cornice-testo:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.animate__animated {
+  animation-duration: 3s;
 }
