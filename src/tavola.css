@@ -31,10 +31,6 @@ strong {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.primo-titolo:hover{  
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 .secondo-titolo {
   font-weight: bold;
   font-size: 3.5em;
