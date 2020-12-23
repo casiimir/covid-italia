@@ -14,6 +14,10 @@ import guaritiPng from './img/guariti.png';
 import decedutiPng from './img/deceduti.png';
 
 
+function controlloConnessione (dati) {
+  return (calcolaRispettoIeri(dati) !== 'NaN in più') ? calcolaRispettoIeri(dati) : '(connessione al database assente)';
+}
+
 function calcolaRispettoIeri (dati) {
   if (dati > 0) {
     return `🎁 ${dati} in meno`;
@@ -43,7 +47,7 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale}) => {
       nome: 'POSITIVI',
       numeroCasi: ottieniNumeroCon(nuovi_positivi),
       img: positiviPng,
-      didascalia: <p>I nuovi positivi nel nostro paese, <strong>{ calcolaRispettoIeri(numeroPositiviRispettoIeri) }</strong>  rispetto a ieri.</p>
+      didascalia: <p>I nuovi positivi nel nostro paese, <strong>{ controlloConnessione(numeroPositiviRispettoIeri) }</strong>  rispetto a ieri.</p>
     },
     {
       nome: 'ISOLAMENTO DOMICILIARE',
@@ -55,13 +59,13 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale}) => {
       nome: 'RICOVERATI',
       numeroCasi: ottieniNumeroCon(ricoverati_con_sintomi),
       img: ricoveratiPng,
-      didascalia: <p>Gli italiani che passando le feste natalizie ricoverati all'ospedale, <strong>{ calcolaRispettoIeri(numeroRicoveratiRispettoIeri) }</strong> rispetto a ieri.</p>
+      didascalia: <p>Gli italiani che passando le feste natalizie ricoverati all'ospedale, <strong>{ controlloConnessione(numeroRicoveratiRispettoIeri) }</strong> rispetto a ieri.</p>
     },
     {
       nome: 'TERAPIA INTENSIVA',
       numeroCasi: ottieniNumeroCon(terapia_intensiva),
       img: intensivaPng,
-      didascalia: <p>Troppi i casi più gravi, <strong> {calcolaRispettoIeri(numeroTerapiaIntensRispettoIeri) } </strong> rispetto a ieri </p>
+      didascalia: <p>Troppi i casi più gravi, <strong> { (controlloConnessione(numeroTerapiaIntensRispettoIeri)) } </strong> rispetto a ieri </p>
     },
     {
       nome: 'DECEDUTI',
