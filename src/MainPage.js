@@ -95,7 +95,9 @@ const MainPage = ({datiDiOggi, datiDiIeri, dataAttuale}) => {
     <div className="container-fluid">  
       <Navbar /> 
       <Titolo dataAttuale={ dataAttualeFormat }/> 
-      { renderTavole }       
+      <div className="row d-flex">
+        { renderTavole }    
+      </div>  
       <Footer />
     </div>
   )
