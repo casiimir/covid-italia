@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/covid-italia/static/css/main.9bac1fa4.chunk.css",
+    "main.css": "/covid-italia/static/css/main.fc5f300b.chunk.css",
     "main.js": "/covid-italia/static/js/main.a6385a7b.chunk.js",
     "main.js.map": "/covid-italia/static/js/main.a6385a7b.chunk.js.map",
     "runtime-main.js": "/covid-italia/static/js/runtime-main.98ae914a.js",
@@ -12,7 +12,7 @@
     "static/js/3.a6ea0adb.chunk.js.map": "/covid-italia/static/js/3.a6ea0adb.chunk.js.map",
     "index.html": "/covid-italia/index.html",
     "static/css/2.0e480839.chunk.css.map": "/covid-italia/static/css/2.0e480839.chunk.css.map",
-    "static/css/main.9bac1fa4.chunk.css.map": "/covid-italia/static/css/main.9bac1fa4.chunk.css.map",
+    "static/css/main.fc5f300b.chunk.css.map": "/covid-italia/static/css/main.fc5f300b.chunk.css.map",
     "static/js/2.62ca84a7.chunk.js.LICENSE.txt": "/covid-italia/static/js/2.62ca84a7.chunk.js.LICENSE.txt",
     "static/media/deceduti.d629b564.png": "/covid-italia/static/media/deceduti.d629b564.png",
     "static/media/guariti.c4ec9e94.png": "/covid-italia/static/media/guariti.c4ec9e94.png",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.98ae914a.js",
     "static/css/2.0e480839.chunk.css",
     "static/js/2.62ca84a7.chunk.js",
-    "static/css/main.9bac1fa4.chunk.css",
+    "static/css/main.fc5f300b.chunk.css",
     "static/js/main.a6385a7b.chunk.js"
   ]
 }
