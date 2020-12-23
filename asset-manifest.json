@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/covid-italia/static/css/main.27c50974.chunk.css",
-    "main.js": "/covid-italia/static/js/main.b9c86f8e.chunk.js",
-    "main.js.map": "/covid-italia/static/js/main.b9c86f8e.chunk.js.map",
+    "main.js": "/covid-italia/static/js/main.17493f9f.chunk.js",
+    "main.js.map": "/covid-italia/static/js/main.17493f9f.chunk.js.map",
     "runtime-main.js": "/covid-italia/static/js/runtime-main.98ae914a.js",
     "runtime-main.js.map": "/covid-italia/static/js/runtime-main.98ae914a.js.map",
     "static/css/2.0e480839.chunk.css": "/covid-italia/static/css/2.0e480839.chunk.css",
@@ -14,18 +14,18 @@
     "static/css/2.0e480839.chunk.css.map": "/covid-italia/static/css/2.0e480839.chunk.css.map",
     "static/css/main.27c50974.chunk.css.map": "/covid-italia/static/css/main.27c50974.chunk.css.map",
     "static/js/2.62ca84a7.chunk.js.LICENSE.txt": "/covid-italia/static/js/2.62ca84a7.chunk.js.LICENSE.txt",
-    "static/media/deceduti.f2ac5867.png": "/covid-italia/static/media/deceduti.f2ac5867.png",
-    "static/media/guariti.17511691.png": "/covid-italia/static/media/guariti.17511691.png",
-    "static/media/intensiva.2a3f9fca.png": "/covid-italia/static/media/intensiva.2a3f9fca.png",
-    "static/media/isolamento.405a4a8a.png": "/covid-italia/static/media/isolamento.405a4a8a.png",
-    "static/media/positivi.d7209e86.png": "/covid-italia/static/media/positivi.d7209e86.png",
-    "static/media/ricoverati.dc619f20.png": "/covid-italia/static/media/ricoverati.dc619f20.png"
+    "static/media/deceduti.d629b564.png": "/covid-italia/static/media/deceduti.d629b564.png",
+    "static/media/guariti.c4ec9e94.png": "/covid-italia/static/media/guariti.c4ec9e94.png",
+    "static/media/intensiva.1e960895.png": "/covid-italia/static/media/intensiva.1e960895.png",
+    "static/media/isolamento.10a234f2.png": "/covid-italia/static/media/isolamento.10a234f2.png",
+    "static/media/positivi.344cbb9a.png": "/covid-italia/static/media/positivi.344cbb9a.png",
+    "static/media/ricoverati.27f3642f.png": "/covid-italia/static/media/ricoverati.27f3642f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.98ae914a.js",
     "static/css/2.0e480839.chunk.css",
     "static/js/2.62ca84a7.chunk.js",
     "static/css/main.27c50974.chunk.css",
-    "static/js/main.b9c86f8e.chunk.js"
+    "static/js/main.17493f9f.chunk.js"
   ]
 }
