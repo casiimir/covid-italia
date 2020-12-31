@@ -1,7 +1,6 @@
 # Covid-19 status in Italy
 This project is my little contribute for my country 🇮🇹
 
-<hr />
 ### The idea
 <img src="/mockup.jpeg" align="right" alt="mockup-covid19-italy" width="330" />
 
