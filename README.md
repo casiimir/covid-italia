@@ -1,7 +1,8 @@
 # Covid-19 status in Italy
-
-<img src="/mockup.jpeg" align="center" alt="mockup-covid19-italy" width="500" />
-<em>Mobile version model, it's responsive!</em>
+<p align="center">
+  <img src="/mockup.jpeg" align="center" alt="mockup-covid19-italy" width="350" />
+  <p align="center"><em>Mobile version model, it's responsive!</em></p>
+</p>
 
 ### The idea
 *In this year together, we have fought, and we keep doing that, a war. It might sound exaggerated, but think it over, about the effects: crisis in every field. Who suffer from it? The economies of the countries. Who suffers most often? The society, the human relation and, more than any other, every single man and woman who faced (and facing), with difficulty, this crisis.*
