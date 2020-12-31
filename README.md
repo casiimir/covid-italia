@@ -20,9 +20,9 @@ I wrote this that **takes the data** from Italy official dataset and it **render
 
 Maybe it isn't impressive, but **this is my really first project in React that I loved**. Not for what the code does, but **for what it communicates**.
 
-Code needs refactoring, I had to write it quickly, but it works.
+<em>Code needs refactoring, I had to write it quickly, but it works.</em>
 
-Wishing you a serene and profitable year, I think we all deserve that.
+#### Wishing you a serene and profitable year, I think we all deserve that.
 
 ### Thanks
 Thanks to <em>Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile</em> in particular to <em>Umberto Rosini<em> <strong>@umbros</strong>.
