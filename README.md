@@ -1,4 +1,4 @@
-<img src="/mockup.jpeg" alt="mockup-covid19-italy" width="500" align="center" />
+<img src="/mockup.jpeg" align="center" alt="mockup-covid19-italy" width="500" />
 
 # Covid19 status in Italy, daily updated
 
