@@ -9,6 +9,7 @@ This project is my little contribute for my country 🇮🇹
 > Let us not be discouraged, however, by the difficulties, **together**, once again in the human history, we will rise.
 Renewed. **Stronger and united**. This is the big lesson from this big crisis.
 
+<hr />
 
 ### The project
 I wrote this that **takes the data** from Italy official dataset and it **renders these in a minimal format**.
