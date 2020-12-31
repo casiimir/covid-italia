@@ -15,8 +15,8 @@ Renewed. **Stronger and united**. This is the big lesson from this big crisis.
 I wrote this that **takes the data** from Italy official dataset and it **renders these in a minimal format**.
 
 *I started the project about less than 10 days ago, with one goal*:
-- ⚠️ provide information on the **state of alert about our national lockdown** for the Christmas holidays;
-- 🕕 provide information on the numbers, **updated daily**;
+- ⚠️ provide information on the **state of alert about our national lockdown** for the Christmas holidays
+- 🕕 provide information on the numbers, **updated daily**
 - 🏠 humbly asking **to stay home**, if not really needed
 - 🙏 **give thanks** to every doctor, nurse, officer and every single man who have to take care of the other
 
