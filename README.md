@@ -1,4 +1,4 @@
-# Covid-19 status in Italy project
+# Covid-19 status in Italy
 
 <img src="/mockup.jpeg" align="center" alt="mockup-covid19-italy" width="500" />
 <em>Mobile version model, it's responsive!</em>
