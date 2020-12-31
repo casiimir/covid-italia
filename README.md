@@ -24,4 +24,3 @@ Wishing you a serene and profitable year, I think we all deserve that.
 
 
 Thanks to <em>Presidenza del Consiglio dei Ministri - Dipartimento della Protezione Civile</em> in particular to <em>Umberto Rosini<em> <strong>@umbros</strong>.
-Made in create-react-app.
