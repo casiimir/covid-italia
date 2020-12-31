@@ -5,8 +5,7 @@
 
 ### The idea
 *In this year together, we have fought, and we keep doing that, a war. It might sound exaggerated, but think it over, about the effects: crisis in every field. Who suffer from it? The economies of the countries. Who suffers most often? The society, the human relation and, more than any other, every single man and woman who faced (and facing), with difficulty, this crisis.*
-> 
-Let us not be discouraged, however, by the difficulties, **together**, once again in the human history, we will rise.
+> Let us not be discouraged, however, by the difficulties, **together**, once again in the human history, we will rise.
 Renewed. **Stronger and united**. This is the big lesson from this big crisis.
 
 ### The project
