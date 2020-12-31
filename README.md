@@ -1,4 +1,4 @@
-# Covid-19 status in Italy
+# Covid-19, the Italian situation
 This project is my little contribute for my country 🇮🇹
 
 ### The idea
