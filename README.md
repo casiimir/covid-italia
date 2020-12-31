@@ -1,11 +1,11 @@
 # Covid-19 status in Italy
-<p align="center">
-  <img src="/mockup.jpeg" align="center" alt="mockup-covid19-italy" width="350" />
-  <p align="center"><em>Mobile version model, it's responsive!</em></p>
-</p>
+This project is my little contribute for my country 🇮🇹
 
 ### The idea
+<img src="/mockup.jpeg" align="right" alt="mockup-covid19-italy" width="350" />
+
 *In this year together, we have fought, and we keep doing that, a war. It might sound exaggerated, but think it over, about the effects: crisis in every field. Who suffer from it? The economies of the countries. Who suffers most often? The society, the human relation and, more than any other, every single man and woman who faced (and facing), with difficulty, this crisis.*
+
 > Let us not be discouraged, however, by the difficulties, **together**, once again in the human history, we will rise.
 Renewed. **Stronger and united**. This is the big lesson from this big crisis.
 
